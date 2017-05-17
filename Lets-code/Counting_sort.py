@@ -10,7 +10,7 @@ def counting_sort(a):
         count[i]+=count[i-1]
 
     for i in range(n):
-        output[count[a[i]]-1] = a[i]
+        output[count[a[i]]-1] = i
         count[a[i]]-=1
 
     return output
