@@ -1,3 +1,7 @@
+"""
+    Algorithm: Counting Sort
+    Complexity: O(n)
+"""
 import collections
 class Solution(object):
     def counting_sort(self, a):

@@ -1,3 +1,7 @@
+"""
+    Algorithm: Heap
+    Complexity: O(n log k)
+"""
 import collections
 import heapq
 
